@@ -63,9 +63,9 @@ cp $NaluRtestCWD/nightly/periodic3dElem/periodic3dElemNp4.norm.gold* $baseGitHub
 cp $NaluRtestCWD/nightly/periodic3dElem/periodic3dElemNp8.sh $baseGitHubCWD/runNaluRtest/nightly/periodic3dElem
 cp $NaluRtestCWD/nightly/periodic3dElem/periodic3dElemNp8.norm.gold* $baseGitHubCWD/runNaluRtest/nightly/periodic3dElem
 # run it...  
-./periodic3dElemNp1.sh
-./periodic3dElemNp4.sh
-./periodic3dElemNp8.sh
+#./periodic3dElemNp1.sh
+#./periodic3dElemNp4.sh
+#./periodic3dElemNp8.sh
 
 #=============================================================================
 # periodic3dEdge test
@@ -85,9 +85,9 @@ cp $NaluRtestCWD/nightly/periodic3dEdge/periodic3dEdgeNp4.norm.gold* $baseGitHub
 cp $NaluRtestCWD/nightly/periodic3dEdge/periodic3dEdgeNp8.sh $baseGitHubCWD/runNaluRtest/nightly/periodic3dEdge
 cp $NaluRtestCWD/nightly/periodic3dEdge/periodic3dEdgeNp8.norm.gold* $baseGitHubCWD/runNaluRtest/nightly/periodic3dEdge
 # run it...  
-./periodic3dEdgeNp1.sh
-./periodic3dEdgeNp4.sh
-./periodic3dEdgeNp8.sh
+#./periodic3dEdgeNp1.sh
+#./periodic3dEdgeNp4.sh
+#./periodic3dEdgeNp8.sh
 
 #=============================================================================
 # quad9HC test
@@ -102,7 +102,7 @@ cp $NaluRtestCWD/mesh/100x50_P2n.g.* $baseGitHubCWD/runNaluRtest/nightly/quad9HC
 cp $NaluRtestCWD/nightly/quad9HC/quad9HC.sh $baseGitHubCWD/runNaluRtest/nightly/quad9HC
 cp $NaluRtestCWD/nightly/quad9HC/quad9HC.norm.gold $baseGitHubCWD/runNaluRtest/nightly/quad9HC
 # run it...  
-./quad9HC.sh
+#./quad9HC.sh
 
 #=============================================================================
 # steadyTaylorVortex test
@@ -117,7 +117,7 @@ cp $NaluRtestCWD/nightly/steadyTaylorVortex/*.g.* $baseGitHubCWD/runNaluRtest/ni
 cp $NaluRtestCWD/nightly/steadyTaylorVortex/steadyTaylorVortex.sh $baseGitHubCWD/runNaluRtest/nightly/steadyTaylorVortex
 cp $NaluRtestCWD/nightly/steadyTaylorVortex/steadyTaylorVortex.norm.gold $baseGitHubCWD/runNaluRtest/nightly/steadyTaylorVortex
 # run it...  
-./steadyTaylorVortex.sh
+#./steadyTaylorVortex.sh
 
 #=============================================================================
 # hoVortex test
@@ -132,7 +132,7 @@ cp $NaluRtestCWD/mesh/100x50_P2n.g.* $baseGitHubCWD/runNaluRtest/nightly/hoVorte
 cp $NaluRtestCWD/nightly/hoVortex/hoVortex.sh $baseGitHubCWD/runNaluRtest/nightly/hoVortex
 cp $NaluRtestCWD/nightly/hoVortex/hoVortex.norm.gold $baseGitHubCWD/runNaluRtest/nightly/hoVortex
 # run it...  
-./hoVortex.sh
+#./hoVortex.sh
 
 #=============================================================================
 # hoHelium test
@@ -148,7 +148,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/hoHelium
 cp $NaluRtestCWD/nightly/hoHelium/hoHelium.sh $baseGitHubCWD/runNaluRtest/nightly/hoHelium
 cp $NaluRtestCWD/nightly/hoHelium/hoHelium.norm.gold $baseGitHubCWD/runNaluRtest/nightly/hoHelium
 # run it...  
-./hoHelium.sh
+#./hoHelium.sh
 
 #=============================================================================
 # dgNonConformal test
@@ -163,7 +163,7 @@ cp $NaluRtestCWD/mesh/2DTwoBlock_R0_rev.g.* $baseGitHubCWD/runNaluRtest/nightly/
 cp $NaluRtestCWD/nightly/dgNonConformal/dgNonConformal.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal
 cp $NaluRtestCWD/nightly/dgNonConformal/dgNonConformal.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal
 # run it...  
-./dgNonConformal.sh
+#./dgNonConformal.sh
 
 #=============================================================================
 # dgNonConformalEdge test
@@ -178,7 +178,7 @@ cp $NaluRtestCWD/mesh/2DTwoBlock_R0_rev.g.* $baseGitHubCWD/runNaluRtest/nightly/
 cp $NaluRtestCWD/nightly/dgNonConformalEdge/dgNonConformalEdge.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalEdge
 cp $NaluRtestCWD/nightly/dgNonConformalEdge/dgNonConformalEdge.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalEdge
 # run it...  
-./dgNonConformalEdge.sh
+#./dgNonConformalEdge.sh
 
 #=============================================================================
 # dgNonConformalFluids test
@@ -194,7 +194,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/dgNonConf
 cp $NaluRtestCWD/nightly/dgNonConformalFluids/dgNonConformalFluids.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalFluids
 cp $NaluRtestCWD/nightly/dgNonConformalFluids/dgNonConformalFluids.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalFluids
 # run it...  
-./dgNonConformalFluids.sh
+#./dgNonConformalFluids.sh
 
 #=============================================================================
 # dgNonConformalFluidsEdge test
@@ -210,7 +210,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/dgNonConf
 cp $NaluRtestCWD/nightly/dgNonConformalFluidsEdge/dgNonConformalFluidsEdge.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalFluidsEdge
 cp $NaluRtestCWD/nightly/dgNonConformalFluidsEdge/dgNonConformalFluidsEdge.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalFluidsEdge
 # run it...  
-./dgNonConformalFluidsEdge.sh
+#./dgNonConformalFluidsEdge.sh
 
 #=============================================================================
 # dgNonConformal3dFluids test
@@ -226,7 +226,7 @@ cp $NaluRtestCWD/xml/milestone.xml  $baseGitHubCWD/runNaluRtest/nightly/dgNonCon
 cp $NaluRtestCWD/nightly/dgNonConformal3dFluids/dgNonConformal3dFluids.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal3dFluids
 cp $NaluRtestCWD/nightly/dgNonConformal3dFluids/dgNonConformal3dFluids.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal3dFluids
 # run it...  
-./dgNonConformal3dFluids.sh
+#./dgNonConformal3dFluids.sh
 
 #=============================================================================
 # dgNonConformal3dFluidsP1P2 test
@@ -242,7 +242,7 @@ cp $NaluRtestCWD/xml/milestone.xml  $baseGitHubCWD/runNaluRtest/nightly/dgNonCon
 cp $NaluRtestCWD/nightly/dgNonConformal3dFluidsP1P2/dgNonConformal3dFluidsP1P2.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal3dFluidsP1P2
 cp $NaluRtestCWD/nightly/dgNonConformal3dFluidsP1P2/dgNonConformal3dFluidsP1P2.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal3dFluidsP1P2
 # run it...  
-./dgNonConformal3dFluidsP1P2.sh
+#./dgNonConformal3dFluidsP1P2.sh
 
 #=============================================================================
 # dgNonConformal3dFluidsHexTet test
@@ -258,7 +258,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/dgNonConf
 cp $NaluRtestCWD/nightly/dgNonConformal3dFluidsHexTet/dgNonConformal3dFluidsHexTet.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal3dFluidsHexTet
 cp $NaluRtestCWD/nightly/dgNonConformal3dFluidsHexTet/dgNonConformal3dFluidsHexTet.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformal3dFluidsHexTet
 # run it...  
-./dgNonConformal3dFluidsHexTet.sh
+#./dgNonConformal3dFluidsHexTet.sh
 
 #=============================================================================
 # dgNonConformalThreeBlade test
@@ -276,7 +276,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/dgNonConf
 cp $NaluRtestCWD/nightly/dgNonConformalThreeBlade/dgNonConformalThreeBlade.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalThreeBlade
 cp $NaluRtestCWD/nightly/dgNonConformalThreeBlade/dgNonConformalThreeBlade_rst.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalThreeBlade
 # run it...  
-./dgNonConformalThreeBlade.sh
+#./dgNonConformalThreeBlade.sh
 
 #=============================================================================
 # overset test
@@ -291,7 +291,7 @@ cp $NaluRtestCWD/mesh/oversetMeshAligned.g* $baseGitHubCWD/runNaluRtest/nightly/
 cp $NaluRtestCWD/nightly/overset/overset.sh $baseGitHubCWD/runNaluRtest/nightly/overset
 cp $NaluRtestCWD/nightly/overset/overset.norm.gold $baseGitHubCWD/runNaluRtest/nightly/overset
 # run it...  
-./overset.sh
+#./overset.sh
 
 #=============================================================================
 # oversetFluids test
@@ -307,7 +307,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/oversetFl
 cp $NaluRtestCWD/nightly/oversetFluids/oversetFluids.sh $baseGitHubCWD/runNaluRtest/nightly/oversetFluids
 cp $NaluRtestCWD/nightly/oversetFluids/oversetFluids.norm.gold $baseGitHubCWD/runNaluRtest/nightly/oversetFluids
 # run it...  
-./oversetFluids.sh
+#./oversetFluids.sh
 
 #=============================================================================
 # oversetFluidsEdge test
@@ -323,7 +323,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/oversetFl
 cp $NaluRtestCWD/nightly/oversetFluidsEdge/oversetFluidsEdge.sh $baseGitHubCWD/runNaluRtest/nightly/oversetFluidsEdge
 cp $NaluRtestCWD/nightly/oversetFluidsEdge/oversetFluidsEdge.norm.gold $baseGitHubCWD/runNaluRtest/nightly/oversetFluidsEdge
 # run it...
-./oversetFluidsEdge.sh
+#./oversetFluidsEdge.sh
 
 #=============================================================================
 # concentricRad test
@@ -338,7 +338,7 @@ cp $NaluRtestCWD/nightly/concentricRad/*.g.* $baseGitHubCWD/runNaluRtest/nightly
 cp $NaluRtestCWD/nightly/concentricRad/concentricRad.sh $baseGitHubCWD/runNaluRtest/nightly/concentricRad
 cp $NaluRtestCWD/nightly/concentricRad/concentricRad.norm.gold $baseGitHubCWD/runNaluRtest/nightly/concentricRad
 # run it...  
-./concentricRad.sh
+#./concentricRad.sh
 
 #=============================================================================
 # movingCylinder test
@@ -353,7 +353,7 @@ cp $NaluRtestCWD/nightly/movingCylinder/*.g.* $baseGitHubCWD/runNaluRtest/nightl
 cp $NaluRtestCWD/nightly/movingCylinder/movingCylinder.sh $baseGitHubCWD/runNaluRtest/nightly/movingCylinder
 cp $NaluRtestCWD/nightly/movingCylinder/movingCylinder.norm.gold $baseGitHubCWD/runNaluRtest/nightly/movingCylinder
 # run it...  
-./movingCylinder.sh
+#./movingCylinder.sh
 
 #=============================================================================
 # elemBackStepLRSST test
@@ -370,7 +370,7 @@ cp $NaluRtestCWD/nightly/elemBackStepLRSST/elemBackStepLRSST.sh $baseGitHubCWD/r
 cp $NaluRtestCWD/nightly/elemBackStepLRSST/elemBackStepLRSST.norm.gold $baseGitHubCWD/runNaluRtest/nightly/elemBackStepLRSST
 cp $NaluRtestCWD/nightly/elemBackStepLRSST/elemBackStepLRSST_Input.norm.gold $baseGitHubCWD/runNaluRtest/nightly/elemBackStepLRSST
 # run it...  
-./elemBackStepLRSST.sh
+#./elemBackStepLRSST.sh
 
 #=============================================================================
 # ductWedge test
@@ -388,7 +388,7 @@ cp $NaluRtestCWD/nightly/ductWedge/ductWedge.sh $baseGitHubCWD/runNaluRtest/nigh
 cp $NaluRtestCWD/nightly/ductWedge/ductWedge.norm.gold $baseGitHubCWD/runNaluRtest/nightly/ductWedge
 cp $NaluRtestCWD/nightly/ductWedge/ductWedge_Input.norm.gold $baseGitHubCWD/runNaluRtest/nightly/ductWedge
 # run it...  
-./ductWedge.sh
+#./ductWedge.sh
 
 #=============================================================================
 # heatedBackStep test
@@ -404,7 +404,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/heatedBac
 cp $NaluRtestCWD/nightly/heatedBackStep/heatedBackStep.sh $baseGitHubCWD/runNaluRtest/nightly/heatedBackStep
 cp $NaluRtestCWD/nightly/heatedBackStep/heatedBackStep.norm.gold $baseGitHubCWD/runNaluRtest/nightly/heatedBackStep
 # run it...
-./heatedBackStep.sh
+#./heatedBackStep.sh
 
 
 #=============================================================================
@@ -421,7 +421,7 @@ cp $NaluRtestCWD/mesh/horseshoe.g.* $baseGitHubCWD/runNaluRtest/nightly/edgePipe
 cp $NaluRtestCWD/nightly/edgePipeCHT/edgePipeCHT.sh $baseGitHubCWD/runNaluRtest/nightly/edgePipeCHT
 cp $NaluRtestCWD/nightly/edgePipeCHT/edgePipeCHT.norm.gold $baseGitHubCWD/runNaluRtest/nightly/edgePipeCHT
 # run it...  
-./edgePipeCHT.sh
+#./edgePipeCHT.sh
 
 #=============================================================================
 # elemPipeCHT test
@@ -437,7 +437,7 @@ cp $NaluRtestCWD/mesh/horseshoe.g.* $baseGitHubCWD/runNaluRtest/nightly/elemPipe
 cp $NaluRtestCWD/nightly/elemPipeCHT/elemPipeCHT.sh $baseGitHubCWD/runNaluRtest/nightly/elemPipeCHT
 cp $NaluRtestCWD/nightly/elemPipeCHT/elemPipeCHT.norm.gold $baseGitHubCWD/runNaluRtest/nightly/elemPipeCHT
 # run it...  
-./elemPipeCHT.sh
+#./elemPipeCHT.sh
 
 #=============================================================================
 # heliumPlume test (with restart; mixed edge/element)
@@ -456,7 +456,7 @@ cp $NaluRtestCWD/nightly/heliumPlume/heliumPlumeEdge.norm.gold $baseGitHubCWD/ru
 cp $NaluRtestCWD/nightly/heliumPlume/heliumPlumeElem_rst.norm.gold $baseGitHubCWD/runNaluRtest/nightly/heliumPlume
 
 # run it...  
-./heliumPlume.sh
+#./heliumPlume.sh
 
 #=============================================================================
 # edgeContact3D test (cylinder)
@@ -472,7 +472,7 @@ cp $NaluRtestCWD/mesh/rot_cyl_14.exo* $baseGitHubCWD/runNaluRtest/nightly/edgeCo
 cp $NaluRtestCWD/nightly/edgeContact3D/edgeContact3D.sh $baseGitHubCWD/runNaluRtest/nightly/edgeContact3D
 cp $NaluRtestCWD/nightly/edgeContact3D/edgeContact3D.norm.gold $baseGitHubCWD/runNaluRtest/nightly/edgeContact3D
 # run it...  
-./edgeContact3D.sh
+#./edgeContact3D.sh
 
 #=============================================================================
 # dgNonConformalEdgeCylinder test
@@ -488,7 +488,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/dgNonConf
 cp $NaluRtestCWD/nightly/dgNonConformalEdgeCylinder/dgNonConformalEdgeCylinder.sh $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalEdgeCylinder
 cp $NaluRtestCWD/nightly/dgNonConformalEdgeCylinder/dgNonConformalEdgeCylinder.norm.gold $baseGitHubCWD/runNaluRtest/nightly/dgNonConformalEdgeCylinder
 # run it...  
-./dgNonConformalEdgeCylinder.sh
+#./dgNonConformalEdgeCylinder.sh
 
 #=============================================================================
 # fluidsPmrChtPeriodic test
@@ -503,7 +503,7 @@ cp $NaluRtestCWD/nightly/fluidsPmrChtPeriodic/*.g.* $baseGitHubCWD/runNaluRtest/
 cp $NaluRtestCWD/nightly/fluidsPmrChtPeriodic/fluidsPmrChtPeriodic.sh $baseGitHubCWD/runNaluRtest/nightly/fluidsPmrChtPeriodic
 cp $NaluRtestCWD/nightly/fluidsPmrChtPeriodic/fluidsPmrChtPeriodic.norm.gold $baseGitHubCWD/runNaluRtest/nightly/fluidsPmrChtPeriodic
 # run it...  
-./fluidsPmrChtPeriodic.sh
+#./fluidsPmrChtPeriodic.sh
 
 #=============================================================================
 # nonIsoElemOpenJet test
@@ -518,7 +518,7 @@ cp $NaluRtestCWD/mesh/2cm_ped_35K_mks.g* $baseGitHubCWD/runNaluRtest/nightly/non
 cp $NaluRtestCWD/nightly/nonIsoElemOpenJet/nonIsoElemOpenJet.sh $baseGitHubCWD/runNaluRtest/nightly/nonIsoElemOpenJet
 cp $NaluRtestCWD/nightly/nonIsoElemOpenJet/nonIsoElemOpenJet.norm.gold $baseGitHubCWD/runNaluRtest/nightly/nonIsoElemOpenJet
 # run it...  
-./nonIsoElemOpenJet.sh
+#./nonIsoElemOpenJet.sh
 
 #=============================================================================
 # nonIsoEdgeOpenJet test
@@ -533,7 +533,7 @@ cp $NaluRtestCWD/mesh/2cm_ped_35K_mks.g* $baseGitHubCWD/runNaluRtest/nightly/non
 cp $NaluRtestCWD/nightly/nonIsoEdgeOpenJet/nonIsoEdgeOpenJet.sh $baseGitHubCWD/runNaluRtest/nightly/nonIsoEdgeOpenJet
 cp $NaluRtestCWD/nightly/nonIsoEdgeOpenJet/nonIsoEdgeOpenJet.norm.gold $baseGitHubCWD/runNaluRtest/nightly/nonIsoEdgeOpenJet
 # run it...  
-./nonIsoEdgeOpenJet.sh
+#./nonIsoEdgeOpenJet.sh
 
 #=============================================================================
 # hdf5VarZChi test
@@ -550,7 +550,7 @@ cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/hdf5VarZC
 cp $NaluRtestCWD/nightly/hdf5VarZChi/hdf5VarZChi.sh $baseGitHubCWD/runNaluRtest/nightly/hdf5VarZChi
 cp $NaluRtestCWD/nightly/hdf5VarZChi/hdf5VarZChi.norm.gold $baseGitHubCWD/runNaluRtest/nightly/hdf5VarZChi
 # run it...  
-#./hdf5VarZChi.sh
+##./hdf5VarZChi.sh
 
 #=============================================================================
 # elemHybridFluids test
@@ -565,7 +565,7 @@ cp $NaluRtestCWD/mesh/hybrid.g* $baseGitHubCWD/runNaluRtest/nightly/elemHybridFl
 cp $NaluRtestCWD/nightly/elemHybridFluids/elemHybridFluids.sh $baseGitHubCWD/runNaluRtest/nightly/elemHybridFluids
 cp $NaluRtestCWD/nightly/elemHybridFluids/elemHybridFluids.norm.gold $baseGitHubCWD/runNaluRtest/nightly/elemHybridFluids
 # run it...  
-./elemHybridFluids.sh
+#./elemHybridFluids.sh
 
 #=============================================================================
 # elemHybridFluidsShift test
@@ -580,7 +580,7 @@ cp $NaluRtestCWD/mesh/hybrid.g* $baseGitHubCWD/runNaluRtest/nightly/elemHybridFl
 cp $NaluRtestCWD/nightly/elemHybridFluidsShift/elemHybridFluidsShift.sh $baseGitHubCWD/runNaluRtest/nightly/elemHybridFluidsShift
 cp $NaluRtestCWD/nightly/elemHybridFluidsShift/elemHybridFluidsShift.norm.gold $baseGitHubCWD/runNaluRtest/nightly/elemHybridFluidsShift
 # run it...  
-./elemHybridFluidsShift.sh
+#./elemHybridFluidsShift.sh
 
 #=============================================================================
 # edgeHybridFluids test
@@ -595,7 +595,7 @@ cp $NaluRtestCWD/mesh/hybrid.g* $baseGitHubCWD/runNaluRtest/nightly/edgeHybridFl
 cp $NaluRtestCWD/nightly/edgeHybridFluids/edgeHybridFluids.sh $baseGitHubCWD/runNaluRtest/nightly/edgeHybridFluids
 cp $NaluRtestCWD/nightly/edgeHybridFluids/edgeHybridFluids.norm.gold $baseGitHubCWD/runNaluRtest/nightly/edgeHybridFluids
 # run it...  
-./edgeHybridFluids.sh
+#./edgeHybridFluids.sh
 
 #=============================================================================
 # elemClosedDomain test
@@ -610,7 +610,7 @@ cp $NaluRtestCWD/nightly/elemClosedDomain/*.g.* $baseGitHubCWD/runNaluRtest/nigh
 cp $NaluRtestCWD/nightly/elemClosedDomain/elemClosedDomain.sh $baseGitHubCWD/runNaluRtest/nightly/elemClosedDomain
 cp $NaluRtestCWD/nightly/elemClosedDomain/elemClosedDomain.norm.gold $baseGitHubCWD/runNaluRtest/nightly/elemClosedDomain
 # run it...  
-./elemClosedDomain.sh
+#./elemClosedDomain.sh
 
 #=============================================================================
 # mixedTetPipe test
@@ -625,7 +625,7 @@ cp $NaluRtestCWD/mesh/pipeTet.g* $baseGitHubCWD/runNaluRtest/nightly/mixedTetPip
 cp $NaluRtestCWD/nightly/mixedTetPipe/mixedTetPipe.sh $baseGitHubCWD/runNaluRtest/nightly/mixedTetPipe
 cp $NaluRtestCWD/nightly/mixedTetPipe/mixedTetPipe.norm.gold $baseGitHubCWD/runNaluRtest/nightly/mixedTetPipe
 # run it...  
-./mixedTetPipe.sh
+#./mixedTetPipe.sh
 
 #=============================================================================
 # inputFireEdgeUpwind test
@@ -640,7 +640,7 @@ cp $NaluRtestCWD/mesh/13K_oneWay.e.* $baseGitHubCWD/runNaluRtest/nightly/inputFi
 cp $NaluRtestCWD/nightly/inputFireEdgeUpwind/inputFireEdgeUpwind.sh $baseGitHubCWD/runNaluRtest/nightly/inputFireEdgeUpwind
 cp $NaluRtestCWD/nightly/inputFireEdgeUpwind/inputFireEdgeUpwind.norm.gold $baseGitHubCWD/runNaluRtest/nightly/inputFireEdgeUpwind
 # run it...  
-./inputFireEdgeUpwind.sh
+#./inputFireEdgeUpwind.sh
 
 #=============================================================================
 # inputFireElem test
@@ -655,7 +655,7 @@ cp $NaluRtestCWD/mesh/13K_oneWay.e.* $baseGitHubCWD/runNaluRtest/nightly/inputFi
 cp $NaluRtestCWD/nightly/inputFireElem/inputFireElem.sh $baseGitHubCWD/runNaluRtest/nightly/inputFireElem
 cp $NaluRtestCWD/nightly/inputFireElem/inputFireElem.norm.gold $baseGitHubCWD/runNaluRtest/nightly/inputFireElem
 # run it...  
-./inputFireElem.sh
+#./inputFireElem.sh
 
 #=============================================================================
 # nonIsoNonUniformEdgeOpenJet test
@@ -670,7 +670,7 @@ cp $NaluRtestCWD/mesh/2cm_ped_35K_mks.g* $baseGitHubCWD/runNaluRtest/nightly/non
 cp $NaluRtestCWD/nightly/nonIsoNonUniformElemOpenJet/nonIsoNonUniformElemOpenJet.sh $baseGitHubCWD/runNaluRtest/nightly/nonIsoNonUniformElemOpenJet
 cp $NaluRtestCWD/nightly/nonIsoNonUniformElemOpenJet/nonIsoNonUniformElemOpenJet.norm.gold $baseGitHubCWD/runNaluRtest/nightly/nonIsoNonUniformElemOpenJet
 # run it...
-./nonIsoNonUniformElemOpenJet.sh
+#./nonIsoNonUniformElemOpenJet.sh
 
 #=============================================================================
 # nonIsoNonUniformEdgeOpenJet test
@@ -685,7 +685,7 @@ cp $NaluRtestCWD/mesh/2cm_ped_35K_mks.g* $baseGitHubCWD/runNaluRtest/nightly/non
 cp $NaluRtestCWD/nightly/nonIsoNonUniformEdgeOpenJet/nonIsoNonUniformEdgeOpenJet.sh $baseGitHubCWD/runNaluRtest/nightly/nonIsoNonUniformEdgeOpenJet
 cp $NaluRtestCWD/nightly/nonIsoNonUniformEdgeOpenJet/nonIsoNonUniformEdgeOpenJet.norm.gold $baseGitHubCWD/runNaluRtest/nightly/nonIsoNonUniformEdgeOpenJet
 # run it...
-./nonIsoNonUniformEdgeOpenJet.sh
+#./nonIsoNonUniformEdgeOpenJet.sh
 
 #=============================================================================
 # milestoneRun test
@@ -701,7 +701,7 @@ cp $NaluRtestCWD/mesh/1cm_ped_35K.g $baseGitHubCWD/runNaluRtest/nightly/mileston
 cp $NaluRtestCWD/nightly/milestoneRun/milestoneRun.sh $baseGitHubCWD/runNaluRtest/nightly/milestoneRun
 cp $NaluRtestCWD/nightly/milestoneRun/milestoneRun.norm.gold* $baseGitHubCWD/runNaluRtest/nightly/milestoneRun
 # run it...  
-./milestoneRun.sh
+#./milestoneRun.sh
 
 #=============================================================================
 # heatedWaterChannel test
@@ -722,7 +722,7 @@ cp $NaluRtestCWD/nightly/heatedWaterChannel/heatedWaterChannelEdge.norm.gold* $b
 cp $NaluRtestCWD/nightly/heatedWaterChannel/heatedWaterChannelElem.norm.gold* $baseGitHubCWD/runNaluRtest/nightly/heatedWaterChannel
 cp $NaluRtestCWD/nightly/heatedWaterChannel/heatedWaterChannelEdgeRst.norm.gold* $baseGitHubCWD/runNaluRtest/nightly/heatedWaterChannel
 # run it...  
-./heatedWaterChannel.sh
+#./heatedWaterChannel.sh
 
 #=============================================================================
 # variableDensMMS test (edge and element)
@@ -739,7 +739,7 @@ cp $NaluRtestCWD/nightly/variableDensMMS/variableDensMMS.sh $baseGitHubCWD/runNa
 cp $NaluRtestCWD/nightly/variableDensMMS/*.norm.gold $baseGitHubCWD/runNaluRtest/nightly/variableDensMMS
 
 # run it...  
-./variableDensMMS.sh
+#./variableDensMMS.sh
 
 #=============================================================================
 # actuatorLine test
@@ -756,7 +756,29 @@ cp $NaluRtestCWD/nightly/actuatorLine/actuatorLine.sh $baseGitHubCWD/runNaluRtes
 cp $NaluRtestCWD/nightly/actuatorLine/actuatorLine.norm.gold $baseGitHubCWD/runNaluRtest/nightly/actuatorLine
 
 # run it...  
-./actuatorLine.sh
+##./actuatorLine.sh
+
+#=============================================================================
+# nrel5MWactuatorLine test
+#=============================================================================
+if [ ! -d "$baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine" ]; then
+    mkdir $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+fi
+
+cd $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/nrel5MWactuatorLine.i $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/procAllocationTest.i $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/5MW_Baseline/ $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine/ -r
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/Test01.fst $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine/ 
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/*.g $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+cp $NaluRtestCWD/xml/milestone.xml $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/nrel5MWactuatorLine.sh $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/procAllocationTest.sh $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+cp $NaluRtestCWD/nightly/nrel5MWactuatorLine/*.gold $baseGitHubCWD/runNaluRtest/nightly/nrel5MWactuatorLine
+
+# run it...  
+./procAllocationTest.sh
+./nrel5MWactuatorLine.sh
 
 #=============================================================================
 # femHC test
@@ -771,7 +793,7 @@ cp $NaluRtestCWD/mesh/periodic3d.g $baseGitHubCWD/runNaluRtest/nightly/femHC
 cp $NaluRtestCWD/nightly/femHC/femHC.sh $baseGitHubCWD/runNaluRtest/nightly/femHC
 cp $NaluRtestCWD/nightly/femHC/femHC.norm.gold $baseGitHubCWD/runNaluRtest/nightly/femHC
 # run it...
-./femHC.sh
+#./femHC.sh
 
 #=============================================================================
 # ablUnstableEdge test
@@ -788,7 +810,7 @@ cp $NaluRtestCWD/nightly/ablUnstableEdge/ablUnstableEdge.sh $baseGitHubCWD/runNa
 cp $NaluRtestCWD/nightly/ablUnstableEdge/ablUnstableEdge.norm.gold $baseGitHubCWD/runNaluRtest/nightly/ablUnstableEdge
 
 # run it...  
-./ablUnstableEdge.sh
+#./ablUnstableEdge.sh
 
 #=============================================================================
 # ablStableElem test
@@ -805,7 +827,7 @@ cp $NaluRtestCWD/nightly/ablStableElem/ablStableElem.sh $baseGitHubCWD/runNaluRt
 cp $NaluRtestCWD/nightly/ablStableElem/ablStableElem.norm.gold $baseGitHubCWD/runNaluRtest/nightly/ablStableElem
 
 # run it...  
-./ablStableElem.sh
+#./ablStableElem.sh
 
 #=============================================================================
 # unit tests
@@ -818,6 +840,6 @@ cd $baseGitHubCWD/runNaluRtest/nightly/unitTests
 cp $NaluRtestCWD/nightly/unitTests/run_unit_tests.sh $baseGitHubCWD/runNaluRtest/nightly/unitTests
 
 # run it...  
-./run_unit_tests.sh
+#./run_unit_tests.sh
 
 echo "Rtest End"
